@@ -13,6 +13,8 @@ HY_ReachableVia_4G = 5,
 
 2. 用法
 
+#import "ReachabilityHelper"
+
 ReachabilityHelper * reachHelper = [ReachabilityHelper shareReachabilityHelper];
 HY_NetworkStatus status = [reachHelper currentReachabilityStatus];//获取当前状态
 
