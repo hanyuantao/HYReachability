@@ -1,5 +1,4 @@
 # HYReachability
-## 用法
 
 ### 网络状态
 typedef NS_ENUM(NSInteger, HY_NetworkStatus) {
@@ -10,6 +9,7 @@ HY_ReachableVia_2G = 3,
 HY_ReachableVia_3G = 4,
 HY_ReachableVia_4G = 5,
 };
+
 
 ### 用法
 
