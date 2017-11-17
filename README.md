@@ -1,6 +1,7 @@
 # HYReachability
 
 ### 网络状态
+
 typedef NS_ENUM(NSInteger, HY_NetworkStatus) {
 HY_NotReachable = 0,
 HY_ReachableViaWiFi = 2,
